@@ -1,0 +1,349 @@
+body {
+    /* border: 1px solid red; */
+    background: #fafafa;
+    width: 99vw;
+    height: 58.15em;
+    display: flex;
+}
+
+.image{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iPhoneImage {
+    margin-left: 19em;
+    margin-top: 6.5em;
+    /* display: block; */
+}
+
+.iPhoneBackground {
+    width: 17.1%;
+    height: 27em;
+    margin-left: 28.33em;
+    margin-top: 12.5em;
+    position: absolute;
+    /* display: block; */
+}
+
+.signup{
+    border: 1px solid #dbdbdb;
+    width: 24.5%;
+    height: 77%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    position: absolute;
+    margin-top: 2.5em;
+    margin-left: 46.5em;
+}
+
+.instagram-sign-up {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    
+}
+
+.title{
+    width: 52%;
+    margin-top: 1.5em;
+    margin-bottom: 3%;
+}
+
+.about {
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: normal;
+    color: #999999;
+    width: 80%;
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+
+.facebook {
+    background: #3897f0;
+    border-radius: 4px;
+    width: 75%;
+    height: 4.5vh;
+    margin-bottom: 4%;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.facebook:hover {
+    cursor: pointer;
+}
+
+.OR {
+    width: 75%;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: normal;
+    color: #999999;
+    margin-bottom: 4%;
+}
+
+.sign-up {
+    align-items: center;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.sign-up-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    margin-bottom: 5%;
+    color: #262626;
+}
+
+.email {
+    width: 98%;
+    height: 4.5vh;
+    text-align: left;
+    margin-bottom: 2%;
+    border-radius: 4px;
+    background-color: #fafafa;
+    color: #262626;
+}
+
+.name {
+    width: 98%;
+    height: 4.5vh;
+    text-align: left;
+    margin-bottom: 2%;
+    border-radius: 4px;
+    background-color: #fafafa;
+    color: #262626;
+}
+
+.username {
+    width: 98%;
+    height: 4.5vh;
+    text-align: left;
+    margin-bottom: 2%;
+    border-radius: 4px;
+    background-color: #fafafa;
+    color: #262626;
+}
+
+.password {
+    width: 98%;
+    height: 4.5vh;
+    text-align: left;
+    margin-bottom: 5%;
+    border-radius: 4px;
+    background-color: #fafafa;
+    color: #262626;
+}
+
+.signUpButton {
+    width: 100%;
+    height: 4.5vh;
+    background: #3897f0;
+    border-radius: 4px;
+    margin-bottom: 5%;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.signUpButton:hover {
+    cursor: pointer;
+}
+
+.terms-and-conditions {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #999999;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.Log-In {
+    border: 1px solid #dbdbdb;
+    display: flex;
+    position: absolute;
+    margin-left: 53.155em;
+    height: 9%;
+    width: 24.5%;
+    margin-top: 44em;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.log-in {
+    margin-left: 2%;
+    color: #3897f0;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.log-in:hover {
+    cursor: pointer;
+}
+
+.apps {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    margin-left: 53.15em;
+    margin-top: 50em;
+    height: 15%;
+    width: 24.5%;
+    background: #fafafa;
+    flex-direction: column;
+    font-family: Arial;
+    font-size: 14px;
+    color: #262626;
+} 
+
+.applications {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5em;
+}
+
+.app-store {
+    width: 37%;
+    display: flex;
+    margin-right: 3%;
+}
+
+.app-store:hover{
+    cursor: pointer;
+}
+
+.google-store {
+    width: 37%;
+    display: flex;
+}
+
+.google-store:hover {
+    cursor: pointer;
+}
+
+.footer {
+    /* border: 1px solid green; */
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 53em;
+    width: 99%;
+    background: #fafafa;
+    
+} 
+
+.nav {
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 10vh;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* flex-direction: row; */
+}
+        
+ .list-of-links {
+    /* border: 1px solid gold; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    margin-left: -26em;
+    height: 10vh;
+    width: 52vw;
+    font-family: Arial;
+    font-size: 11px;
+    color: #003569;
+    font-weight: 550;
+}
+
+#about:hover {
+    cursor: pointer;
+}
+
+#support:hover {
+    cursor: pointer;
+}
+
+#press:hover {
+    cursor: pointer;
+}
+
+#api:hover {
+    cursor: pointer;
+}
+
+#jobs:hover {
+    cursor: pointer;
+}
+
+#privacy:hover{
+    cursor: pointer;
+}
+
+#terms:hover {
+    cursor: pointer;
+}
+
+#directory:hover {
+    cursor: pointer;
+}
+
+#profiles:hover {
+    cursor: pointer;
+}
+
+#hashtags:hover {
+    cursor: pointer;
+}
+
+#language:hover {
+    cursor: pointer;
+}
+
+.copyright {
+    width: 50%;
+    margin-left: 71em;
+    position: absolute;
+    color: #999999;
+    letter-spacing: .5px;
+    font-size: 11px;
+    font-weight: 550;
+}
